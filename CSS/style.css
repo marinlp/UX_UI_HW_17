@@ -1,15 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Raleway:400,300,500,600");
+
 .inline-block {
     display:inline-block;
     vertical-align: top;
 }
 .logo {
-    width: 23%;
     padding: 1%;
     text-align: center;
+}
+.logo img {
+    float: left;
+}
+header {
+    clear: both;
+    overflow: auto;
+}
+header ul {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-family: var(--font-family-raleway);
 }
 nav {
     width: 73%;
     padding: 1%;
+    float: right;
 }
 ul {
     width: 50%;
