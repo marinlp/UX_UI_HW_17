@@ -11,11 +11,11 @@
 .logo img {
     float: left;
 }
-header {
+header.navigation {
     clear: both;
     overflow: auto;
 }
-header ul {
+header.navigation ul {
     display: inline-block;
     padding: 10px;
     font-size: 20px;
