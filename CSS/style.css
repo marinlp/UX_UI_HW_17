@@ -1,51 +1,50 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Raleway:400,300,500,600");
-
-.inline-block {
-    display:inline-block;
-    vertical-align: top;
-}
-.logo {
-    padding: 1%;
-    text-align: center;
-}
-.logo img {
-    float: left;
-}
-header.navigation {
+body {
+    font-family: Helvetica;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    padding: .5em 1em;
+  }
+  
+  .site-header::after {
+    content: "";
+    display: table;
     clear: both;
-    overflow: auto;
-}
-header.navigation ul {
-    display: inline-block;
-    padding: 10px;
-    font-size: 20px;
-    font-family: var(--font-family-raleway);
-}
-nav {
-    width: 73%;
+  }
+  
+  .site-identity {
+    float: left;
+  }
+  
+  .site-identity img {
+    max-width: 23%;
+    float: left;
+    margin: 0 10px 0 0;
     padding: 1%;
+  }
+  
+  .site-navigation {
     float: right;
-}
-ul {
-    width: 50%;
-    margin-left: auto;
-}
-.heroImg {
-    height: 600px;
-    padding: 25px;
-}
-.content {
-    width: 500px;
-    margin: 0 auto;
-}
-footer {
-    background-color: #373738;
-    padding: 1%;
-}
-footer ul {
+    font-family: 'Raleway', sans-serif;
+    color: #F23064;
+  }
+  
+  .site-navigation ul, li {
+    margin: 0; 
+    padding: 0;
+    display: flex;
+  }
+  
+  .site-navigation li {
     display: inline-block;
-    vertical-align: top;
-}
-footer li {
-    text-align: center;
-}
+    margin: 1.4em 1em 1em 1em;
+  }
+ .content img {
+    float: right;
+    width: 30%;
+ }
+
